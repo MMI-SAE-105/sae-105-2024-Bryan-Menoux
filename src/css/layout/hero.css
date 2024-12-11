@@ -2,11 +2,34 @@
   display: flex;
   flex-direction: column;
 }
-
 .hero__duotone {
   position: relative;
   left: 0;
   top: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.duotone {
+  background-color: #9dc7e8;
+  position: relative;
+  img {
+    filter: grayscale(100%);
+    mix-blend-mode: multiply;
+    display: block;
+  }
+}
+
+.duotone::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #2b500b;
+  z-index: 1;
+  mix-blend-mode: lighten;
 }
 
 .duotone__content {
@@ -15,4 +38,12 @@
   top: 45%;
   z-index: 2;
   color: var(--colors-blanc);
+  font-family: var(--typos-typo-1);
+}
+
+.content__title {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
 }
