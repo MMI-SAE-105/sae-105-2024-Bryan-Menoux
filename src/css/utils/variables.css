@@ -14,10 +14,11 @@
   --typos-typo-2: Montserrat;
   /* space */
   --space-1x: 20px;
-  --space-2x: 40px;
-  --space-3x: 80px;
-  --space-4x: 120px;
-  --space-5x: 160px;
+  --space-2x: 30px;
+  --space-3x: 40px;
+  --space-4x: 80px;
+  --space-5x: 120px;
+  --space-6x: 160px;
   /* text-size */
   --size-1x: 11px;
   --size-2x: 13px;
@@ -25,4 +26,6 @@
   --size-4x: 22px;
   --size-5x: 24px;
   --size-6x: 36px;
+  /* radius */
+  --radius-1x: 10px;
 }

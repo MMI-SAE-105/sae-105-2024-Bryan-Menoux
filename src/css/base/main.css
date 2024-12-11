@@ -3,6 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: var(--typos-typo-2);
+  background: var(--colors-beige);
+}
+
+main {
+  padding-top: var(--space-3x);
+  padding-bottom: var(--space-3x);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-5x);
+}
 
 li {
   list-style: none;
@@ -17,10 +30,4 @@ button {
   margin: 0;
   padding: 0;
   background: none;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }

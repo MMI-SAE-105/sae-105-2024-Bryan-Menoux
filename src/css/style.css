@@ -14,7 +14,4 @@
 @import "layout/hero.css";
 
 /* Components */
-@import "components/hero.css";
-@import "components/duotone.css";
-
-/*test*/
+@import "components/article.css";
