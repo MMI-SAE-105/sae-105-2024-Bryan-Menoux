@@ -35,3 +35,21 @@
   font-weight: 400;
   line-height: 160%;
 }
+
+.article--partenaires {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.article__images {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-1x);
+  flex-wrap: wrap;
+}
+.images__img {
+  width: 40%;
+  height: auto;
+}
