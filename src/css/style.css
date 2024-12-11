@@ -10,6 +10,7 @@
 /* Layout */
 @import "layout/header.css";
 @import "layout/footer.css";
+@import "layout/hero.css";
 
 /* Components */
 @import "components/hero.css";
