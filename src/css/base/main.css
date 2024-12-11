@@ -11,3 +11,41 @@ a {
   text-decoration: none;
   color: var(--colors-gris);
 }
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.duotone {
+  background-color: #9dc7e8;
+  position: relative;
+  img {
+    filter: grayscale(100%);
+    mix-blend-mode: multiply;
+    display: block;
+  }
+}
+
+.duotone::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #2b500b;
+  z-index: 1;
+  mix-blend-mode: lighten;
+}
+

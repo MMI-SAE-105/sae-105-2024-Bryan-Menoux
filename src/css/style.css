@@ -1,2 +1,16 @@
-@import "base/main.css";
+/* Vendors */
+@import "vendors/normalize.css";
+
+/* Utils */
 @import "utils/variables.css";
+
+/* Base */
+@import "base/main.css";
+
+/* Layout */
+@import "layout/header.css";
+@import "layout/footer.css";
+
+/* Components */
+@import "components/hero.css";
+@import "components/duotone.css";
