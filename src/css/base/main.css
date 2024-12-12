@@ -9,8 +9,8 @@ body {
 }
 
 main {
-  padding-top: var(--space-3x);
-  padding-bottom: var(--space-3x);
+  padding-top: var(--space-5x);
+  padding-bottom: var(--space-5x);
   display: flex;
   flex-direction: column;
   align-items: center;

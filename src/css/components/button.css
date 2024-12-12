@@ -1,3 +1,17 @@
+.article__btn {
+  background: var(--colors-bleu);
+  display: flex;
+  padding: 13px 18px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  position: relative;
+  left: 60%;
+  top: 10%;
+  border-radius: var(--radius-1x);
+  color: var(--colors-blanc);
+}
+
 .footer__btn {
   border-radius: var(--radius-2x);
   background-color: transparent;
