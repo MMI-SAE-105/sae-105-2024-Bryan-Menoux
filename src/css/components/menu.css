@@ -81,3 +81,11 @@
   transform: rotate(90deg);
   top: 0;
 }
+
+.menu-btn--scrolled {
+  .menu-btn__bar,
+  .menu-btn__bar::before,
+  .menu-btn__bar::after {
+    background-color: var(--colors-gris);
+  }
+}

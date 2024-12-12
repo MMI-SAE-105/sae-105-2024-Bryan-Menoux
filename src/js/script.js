@@ -1,15 +1,23 @@
 let toggle = document.querySelector(".header__menu-btn");
 let nav = document.querySelector(".header__menu");
 const page = document.body;
+let menuIsOpen = false;
+const homeIcon = document.querySelector(".home__icon");
+let pastHomeIcon = homeIcon.src;
 
 if (toggle && nav) {
   toggle.addEventListener("click", () => {
     const isOpen = toggle.ariaExpanded === "false";
     const isClosed = !isOpen;
-    console.log(isOpen, isClosed);
     toggle.ariaExpanded = isOpen;
     nav.ariaExpanded = isClosed;
     page.classList.toggle("noscroll", isClosed);
+    menuIsOpen = isClosed;
+    console.log("menuIsOpen", menuIsOpen);
+    if (menuIsOpen) {
+      pastHomeIcon = homeIcon.src;
+      homeIcon.src = "assets/svg/logo_blanc.svg";
+    } else homeIcon.src = pastHomeIcon;
   });
 }
 
@@ -35,4 +43,19 @@ carrousels.forEach((carrousel) => {
       behavior: "smooth",
     });
   });
+});
+
+const menuBtn = document.querySelector(".menu-btn__bar");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 250) {
+    toggle.classList.add("menu-btn--scrolled");
+    homeIcon.src = "assets/svg/logo_gris.svg";
+    console.log("scrolled");
+  }
+  if (window.scrollY < 250) {
+    toggle.classList.remove("menu-btn--scrolled");
+    homeIcon.src = "assets/svg/logo_blanc.svg";
+    console.log("not scrolled");
+  }
 });
