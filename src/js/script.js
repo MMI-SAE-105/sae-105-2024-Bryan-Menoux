@@ -52,10 +52,8 @@ window.addEventListener("scroll", () => {
   if (window.scrollY > mainSection.offsetTop) {
     toggle.classList.add("menu-btn--scrolled");
     homeIcon.src = "assets/svg/logo_gris.svg";
-    console.log("entered main");
   } else {
     toggle.classList.remove("menu-btn--scrolled");
     homeIcon.src = "assets/svg/logo_blanc.svg";
-    console.log("not in main");
   }
 });

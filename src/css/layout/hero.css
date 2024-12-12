@@ -3,6 +3,9 @@
   flex-direction: column;
   width: 100%;
   background-color: black;
+  position: relative;
+  left: 0;
+  top: 0;
 }
 .hero__duotone {
   position: relative;
@@ -73,4 +76,20 @@ img {
   align-items: flex-end;
   padding-top: var(--space-5x);
   padding-bottom: var(--space-4x);
+  position: relative;
+}
+
+.hero__content--background {
+  width: 100vw;
+  height: 65vh;
+}
+.content__image--full-size {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  background: url("/assets/webp/tout_est_possible.webp");
+  background-size: cover;
+  background-position: center;
 }

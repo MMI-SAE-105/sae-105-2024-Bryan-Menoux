@@ -1,11 +1,11 @@
 .article {
   display: flex;
   flex-direction: column;
-  padding-left: var(--space-3x);
-  padding-right: var(--space-3x);
   gap: var(--space-1x);
   position: relative;
   color: var(--colors-vert);
+  padding-left: var(--space-3x);
+  padding-right: var(--space-3x);
 }
 
 .article__title {
@@ -50,4 +50,48 @@
   flex-direction: column;
   align-items: center;
   gap: var(--space-3x);
+}
+
+.main:has(.article__film-info) {
+  padding-top: var(--space-2x);
+}
+.article__film-info {
+  padding: 10px;
+  border-radius: var(--radius-1x);
+  background-color: var(--colors-bleu-clair);
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-1x);
+  align-items: center;
+  justify-content: center;
+  color: var(--colors-gris);
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.info__list {
+  display: flex;
+  gap: var(--space-1x);
+  align-items: center;
+}
+
+.info__item {
+  font: var(--typos-typo-2);
+  font-size: var(--size-1x);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+
+.article__trailer {
+  height: auto;
+  width: 100%;
+}
+
+.article__subtitle {
+  font-size: var(--size-2x);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
 }
