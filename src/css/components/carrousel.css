@@ -5,7 +5,7 @@
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
   display: flex;
-  gap: var(--space-1x);
+  gap: var(--space-3x);
   position: relative;
   padding-left: var(--space-4x);
   padding-right: var(--space-4x);
@@ -32,4 +32,19 @@
 .poster__img {
   content: fit-content;
 }
+.poster__title {
+  text-transform: uppercase;
+}
 
+.carrousel__buttons {
+  padding: var(--space-1x);
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-1x);
+}
+
+.carrousel__buttons button {
+  position: relative;
+  left: 0;
+  top: 0;
+}
