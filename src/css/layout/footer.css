@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  gap: var(--space-3x);
   padding-top: 65%;
   padding-left: var(--space-2x);
   padding-right: var(--space-2x);
@@ -53,10 +54,4 @@
   flex-wrap: wrap;
   align-items: start;
   gap: var(--space-1x);
-}
-
-.footer__logo {
-  position: relative;
-  left: 0;
-  top: 15%;
 }
