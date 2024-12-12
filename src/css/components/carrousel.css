@@ -1,12 +1,14 @@
 .article__carrousel {
-  padding-left: var(--space-4x);
-  padding-right: var(--space-4x);
   width: 100vw;
   overflow: scroll;
-  display: flex;
+  overflow-y: hidden;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
+  display: flex;
   gap: var(--space-1x);
+  position: relative;
+  padding-left: var(--space-4x);
+  padding-right: var(--space-4x);
 }
 
 .article__carrousel > * {
@@ -24,8 +26,10 @@
   background-color: var(--colors-bleu);
   padding: 30px;
   border-radius: var(--radius-1x);
-  color: var(--colors-blanc);
+  color: var(--colors-gris);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .poster__img {
   content: fit-content;
 }
+
