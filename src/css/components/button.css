@@ -9,6 +9,8 @@
   left: 60%;
   top: 10%;
   border-radius: var(--radius-1x);
+}
+.btn__link {
   color: var(--colors-blanc);
 }
 
