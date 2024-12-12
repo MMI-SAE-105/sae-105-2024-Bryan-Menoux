@@ -38,9 +38,12 @@
 
 .article--partenaires {
   display: flex;
-  flex-direction: row;
+  padding-left: var(--space-1x);
+  padding-right: var(--space-1x);
+  align-items: start;
+  align-content: center;
+  gap: 20px 50px;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .article__images {
@@ -48,8 +51,11 @@
   flex-direction: row;
   gap: var(--space-1x);
   flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 .images__img {
-  width: 40%;
+  width: 45%;
   height: auto;
+  object-fit: contain;
 }

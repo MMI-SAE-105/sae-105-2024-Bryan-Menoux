@@ -1,0 +1,7 @@
+.footer__btn {
+  border-radius: var(--radius-2x);
+  background-color: transparent;
+  border: 2px solid var(--colors-blanc);
+  padding: 13px 18px;
+  color: var(--colors-blanc);
+}

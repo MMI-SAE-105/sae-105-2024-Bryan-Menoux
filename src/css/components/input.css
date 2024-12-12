@@ -1,0 +1,11 @@
+.footer__input {
+  border-radius: var(--radius-1x);
+  background-color: transparent;
+  border: 2px solid var(--colors-blanc);
+  padding: 13px 18px;
+  color: var(--colors-blanc);
+}
+.footer__input::placeholder {
+  color: var(--colors-blanc);
+  text-transform: lowercase;
+}

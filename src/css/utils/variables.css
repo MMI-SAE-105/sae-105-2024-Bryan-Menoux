@@ -28,4 +28,6 @@
   --size-6x: 36px;
   /* radius */
   --radius-1x: 10px;
+  --radius-2x: 15px;
+  --radius-3x: 20px;
 }
