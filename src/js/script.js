@@ -46,16 +46,16 @@ carrousels.forEach((carrousel) => {
 });
 
 const menuBtn = document.querySelector(".menu-btn__bar");
+const mainSection = document.querySelector("main");
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 250) {
+  if (window.scrollY > mainSection.offsetTop) {
     toggle.classList.add("menu-btn--scrolled");
     homeIcon.src = "assets/svg/logo_gris.svg";
-    console.log("scrolled");
-  }
-  if (window.scrollY < 250) {
+    console.log("entered main");
+  } else {
     toggle.classList.remove("menu-btn--scrolled");
     homeIcon.src = "assets/svg/logo_blanc.svg";
-    console.log("not scrolled");
+    console.log("not in main");
   }
 });
