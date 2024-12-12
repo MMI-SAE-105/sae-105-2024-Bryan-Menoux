@@ -8,6 +8,10 @@ body {
   background: var(--colors-beige);
 }
 
+.noscroll {
+  overflow: hidden;
+}
+
 main {
   padding-top: var(--space-5x);
   padding-bottom: var(--space-5x);
