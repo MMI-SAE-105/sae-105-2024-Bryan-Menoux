@@ -1,289 +1,431 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CINENATURE</title>
+    <link
+      rel="shortcut icon"
+      href="assets/svg/logo_blanc.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script src="src/js/script.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CINENATURE</title>
-  <link rel="shortcut icon" href="assets/svg/logo_blanc.svg" type="image/x-icon" />
-  <link rel="stylesheet" href="src/css/style.css" />
-  <script src="src/js/script.js" defer></script>
-
-</head>
-
-<body>
-  <header class="hero">
-    <div class="header">
-      <a href="/" class="header__home"><img src="assets/svg/logo_blanc.svg" alt="logo_blanc" class="home__icon" /></a>
-      <button class="header__menu-btn menu-btn">
-        <span class="menu-btn__bar" aria-hidden="true"></span>
-      </button>
-      <nav class="header__menu" aria-expanded="false">
-        <ul class="menu__list">
+  <body>
+    <header class="hero">
+      <div class="header">
+        <a href="/" class="header__home"
+          ><img
+            src="assets/svg/logo_blanc.svg"
+            alt="logo_blanc"
+            class="home__icon"
+        /></a>
+        <button class="header__menu-btn menu-btn">
+          <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+        <nav class="header__menu" aria-expanded="false">
+          <ul class="menu__list">
             <li class="menu__item">
               <a href="programmation.html">Programme</a>
             </li>
             <li class="menu__item">
               <a href="billetterie.html">Billeterie</a>
             </li>
-            <li class="menu__item"><a href="infos-pratiques.html">Lieu & Infos Pratiques</a></li>
-            <li class="menu__item"><a href="eco-responsabilite.html">Éco-Responsabilité</a></li>
+            <li class="menu__item">
+              <a href="infos-pratiques.html">Lieu & Infos Pratiques</a>
+            </li>
+            <li class="menu__item">
+              <a href="eco-responsabilite.html">Éco-Responsabilité</a>
+            </li>
             <li class="menu__item"><a href="contact.html">Contact</a></li>
             <li class="menu__item"><a href="a-propos.html">À Propos</a></li>
           </ul>
-      </nav>
-    </div>
-    <div class="hero__content">
-      <h1 class="hero__title">La programmation</h1>
-    </div>
-
-  </header>
-  <main class="main">
-    <article class="article article--carrousel">
-      <h3 class="article__title">Programmation du 5 juillet 2025</h3>
-      <div class="article__carrousel">
-        <a href="tout-est-possible.html" class="carrousel__poster">
-          <img src="assets/webp/tout_est_possible.webp" alt="affiche du film tout es possible" class="poster__img">
-          <h3 class="poster__title">Tout est possible</h3>
-          <p class="poster__date">5 juillet 2025</p>
-          <p class="poster__hour">10h00 – 12h00</p>
-        </a>
-        <div class="carrousel__poster">
-          <img src="assets/webp/demain.webp" alt="Affiche du film DEMAIN" class="poster__img">
-          <h3 class="poster__title">DEMAIN</h3>
-          <p class="poster__date">5 juillet 2025</p>
-          <p class="poster__hour">14h00 – 16h00</p>
-        </div>
-        <div class="carrousel__poster">
-          <img src="assets/webp/ma_petite_planete_verte.webp" alt="Affiche du film Ma petite planète verte"
-            class="poster__img">
-          <h3 class="poster__title">Ma petite planète verte</h3>
-          <p class="poster__date">5 juillet 2025</p>
-          <p class="poster__hour">16h30 - 18h30</p>
-        </div>
-        <div class="carrousel__poster">
-          <img src="assets/webp/honeyland.webp" alt="Affiche du film Honneyland" class="poster__img">
-          <h3 class="poster__title">Honneyland</h3>
-          <p class="poster__date">5 juillet 2025</p>
-          <p class="poster__hour">20h00 – 22h00</p>
-        </div>
+        </nav>
       </div>
-      <div class="carrousel__buttons">
-        <button class="btn article__btn carrousel__btn--prev">←</button>
-        <button class="btn article__btn article__btn--carrousel">En savoir plus</button>
-        <button class="btn article__btn carrousel__btn--next">→</button>
+      <div class="hero__content">
+        <h1 class="hero__title">La programmation</h1>
       </div>
-    </article>
-
-
-
-    <article class="article article--carrousel">
-      <h3 class="article__title">Programmation du 6 juillet 2025</h3>
-      <div class="article__carrousel">
-        <div class="carrousel__poster">
-          <img src="assets/webp/2040.webp" alt="affiche du film 2040" class="poster__img">
-          <h3 class="poster__title">2040</h3>
-          <p class="poster__date">6 juillet 2025</p>
-          <p class="poster__hour">10h00 - 12h00</p>
-        </div>
-        <div class="carrousel__poster">
-          <img src="assets/webp/home.webp" alt="Affiche du film Home" class="poster__img">
-          <h3 class="poster__title">HOME</h3>
-          <p class="poster__date">6 juillet 2025</p>
-          <p class="poster__hour">14h00 – 16h00</p>
-        </div>
-        <div class="carrousel__poster">
-          <img src="assets/webp/le_temps_des_forets.webp" alt="Affiche du film Le temps des forêts" class="poster__img">
-          <h3 class="poster__title">Le temps des forêts</h3>
-          <p class="poster__date">6 juillet 2025</p>
-          <p class="poster__hour">16h30 - 18h30</p>
-        </div>
-        <div class="carrousel__poster">
-          <img src="assets/webp/la_glace_et_le_ciel.webp" alt="Affiche du film la glace et le ciel" class="poster__img">
-          <h3 class="poster__title">La glace et le ciel</h3>
-          <p class="poster__date">6 juillet 2025</p>
-          <p class="poster__hour">20h00 – 22h00</p>
-        </div>
-      </div>
-      <div class="carrousel__buttons">
-        <button class="btn article__btn carrousel__btn--prev">←</button>
-        <button class="btn article__btn article__btn--carrousel">En savoir plus</button>
-        <button class="btn article__btn carrousel__btn--next">→</button>
-      </div>
-    </article>
-
-
-
-
-
-
-    <article class="article article--carrousel">
-      <h3 class="article__title">Programmation du 7 juillet 2025</h3>
-      <div class="article__carrousel">
-        <div class="carrousel__poster">
-          <img src="assets/webp/les_moissons_du_futur.webp" alt="affiche du film Les moissons du futur"
-            class="poster__img">
-          <h3 class="poster__title">Les moissons du futur</h3>
-          <p class="poster__date">7 juillet 2025</p>
-          <p class="poster__hour">10h00 – 12h00</p>
-        </div>
-        <div class="carrousel__poster">
-          <img src="assets/webp/our_planet.webp" alt="Affiche du film Our planet" class="poster__img">
-          <h3 class="poster__title">our planet</h3>
-          <p class="poster__date">7 juillet 2025</p>
-          <p class="poster__hour">14h00 – 16h00</p>
-        </div>
-        <div class="carrousel__poster">
-          <img src="assets/webp/a_plastic_ocean.webp" alt="Affiche du film A plastic ocean" class="poster__img">
-          <h3 class="poster__title">a plastic ocean</h3>
-          <p class="poster__date">7 juillet 2025</p>
-          <p class="poster__hour">14h00 – 16h00</p>
-        </div>
-        <div class="carrousel__poster">
-          <img src="assets/webp/mystere.webp" alt="Affiche du film mystere" class="poster__img">
-          <h3 class="poster__title">mystere</h3>
-          <p class="poster__date">7 juillet 2025</p>
-          <p class="poster__hour">20h00 – 22h00</p>
-        </div>
-      </div>
-      <div class="carrousel__buttons">
-        <button class="btn article__btn carrousel__btn--prev">←</button>
-        <button class="btn article__btn article__btn--carrousel">En savoir plus</button>
-        <button class="btn article__btn carrousel__btn--next">→</button>
-      </div>
-    </article>
-
-
-
-
-
-
-    <article class="article article--carrousel">
-      <h3 class="article__title">Programmation du 8 juillet 2025</h3>
-      <div class="article__carrousel">
-        <div class="carrousel__poster">
-          <img src="assets/webp/la_terre_vue_du_ciel.webp" alt="affiche du film La terre vue du ciel"
-            class="poster__img">
-          <h3 class="poster__title">La terre vue du ciel</h3>
-          <p class="poster__date">8 juillet 2025</p>
-          <p class="poster__hour">10h00 – 12h00</p>
-        </div>
-        <div class="carrousel__poster">
-          <img src="assets/webp/le_peuple_migrateur.webp" alt="Affiche du film Le peuple migrateur" class="poster__img">
-          <h3 class="poster__title">Le peuple migrateur</h3>
-          <p class="poster__date">8 juillet 2025</p>
-          <p class="poster__hour">14h00 – 16h00</p>
-        </div>
-        <div class="carrousel__poster">
-          <img src="assets/webp/en_quete_de_sens.webp" alt="Affiche du film En quête de sens" class="poster__img">
-          <h3 class="poster__title">En quête de sens</h3>
-          <p class="poster__date">8 juillet 2025</p>
-          <p class="poster__hour">14h00 – 16h00</p>
-        </div>
-        <div class="carrousel__poster">
-          <img src="assets/webp/demain.webp" alt="Affiche du film DEMAIN" class="poster__img">
-          <h3 class="poster__title">DEMAIN</h3>
-          <p class="poster__date">8 juillet 2025</p>
-          <p class="poster__hour">20h00 - 22h00</p>
-        </div>
-      </div>
-      <div class="carrousel__buttons">
-        <button class="btn article__btn carrousel__btn--prev">←</button>
-        <button class="btn article__btn article__btn--carrousel">En savoir plus</button>
-        <button class="btn article__btn carrousel__btn--next">→</button>
-      </div>
-    </article>
-
-
-
-
-    <article class="article">
-      <h3 class="article__title">Séance Spéciale avec John Chester</h3>
-      <img src="assets/webp/john_chester.webp" alt="photographie de john Chester" class="article__image">
-      <p class="article__excerpt">Rejoignez John Chester, réalisateur de "The Biggest Little Farm", pour une projection
-        exclusive suivie d’une rencontre exceptionnelle. Découvrez les coulisses de sa ferme régénérative et échangez
-        avec lui sur l’agriculture durable et la biodiversité. Un moment inspirant pour explorer l’impact du cinéma sur
-        l’écologie. Places limitées – Réservez vite !</p>
-      <button class="btn article__btn"><a href="invites.html" class="btn__link">En savoir plus</a></button>
-    </article>
-    <article class="article">
-      <h3 class="article__title">Un Voyage Cinématographique en Pleine Nature</h3>
-      <img src="assets/webp/cinema_plein_air.webp" alt="photographie d'un cinéma en plein air" class="article__image">
-      <p class="article__excerpt">Plongez au cœur de la nature avec les projections en plein air du Festival CinéNature.
-        Chaque soirée, profitez d'une sélection de films d'auteur et documentaires engagés, projetés sous les étoiles
-        dans un cadre exceptionnel, sur la presqu'île du Malsaucy. Les films mettent en lumière des thèmes écologiques
-        et sociaux, éveillant les consciences tout en offrant une expérience cinématographique immersive. Apportez votre
-        couverture et laissez-vous transporter par la magie du cinéma en plein air, entouré de la beauté naturelle. Une
-        expérience unique où la nature et l’art se rencontrent.</p>
-    </article>
-    <article class="article">
-      <h3 class="article__title">Les Ateliers Interactifs</h3>
-      <img src="assets/webp/plant.webp" alt="photographie d'un cinéma en plein air" class="article__image">
-      <p class="article__excerpt">Participez à nos ateliers interactifs et découvrez des façons pratiques de contribuer
-        à un avenir plus durable. Les ateliers, animés par des experts en écologie et des artistes locaux, couvrent des
-        thématiques comme le recyclage créatif, la réduction des déchets ou encore la permaculture. Ces activités
-        permettent d’approfondir les sujets abordés dans les films projetés, tout en offrant des solutions concrètes à
-        mettre en œuvre dans la vie quotidienne. Ouverts à tous, ces ateliers favorisent l’échange et la créativité,
-        tout en sensibilisant aux enjeux environnementaux actuels.</p>
-    </article>
-    <article class="article">
-      <h3 class="article__title">Rencontres avec les Réalisateurs</h3>
-      <img src="assets/webp/conference.webp" alt="photographie d'un cinéma en plein air" class="article__image">
-      <p class="article__excerpt">Le Festival CinéNature vous propose des rencontres exclusives avec les réalisateurs et
-        les acteurs des films programmés. Ces discussions offrent un moment privilégié pour échanger autour des œuvres
-        et des thèmes écologiques abordés. Vous aurez l'occasion de poser vos questions, de comprendre les inspirations
-        derrière chaque projet, et de découvrir les défis que ces cinéastes rencontrent dans leur démarche artistique.
-        Ces moments de partage favorisent une compréhension plus profonde des films et encouragent un dialogue engagé
-        autour de la protection de l'environnement et des solutions durables.</p>
-    </article>
-    <article class="article">
-      <h3 class="article__title">Films Locaux et Jeunes Talents</h3>
-      <img src="assets/webp/guy_on_grass.webp" alt="photographie d'un cinéma en plein air" class="article__image">
-      <p class="article__excerpt">Le Festival CinéNature met un point d'honneur à valoriser les jeunes talents locaux à
-        travers une sélection spéciale de courts-métrages et de films régionaux. Ces œuvres, souvent engagées, abordent
-        des thématiques environnementales tout en reflétant la richesse culturelle et artistique de la région. Venez
-        découvrir de nouveaux réalisateurs, artistes en devenir, qui utilisent leur créativité pour sensibiliser aux
-        questions écologiques. En soutenant ces talents émergents, le festival participe à la mise en avant de la
-        créativité locale et encourage la production cinématographique durable.</p>
-    </article>
-  </main>
-
-  <footer class="footer">
-    <nav class="footer__menu">
-      <h3 class="menu__title">Menu</h3>
-      <a href="contact.html" class="menu__link">Contact</a>
-      <a href="#" class="menu__link">Politique de confidentialité</a>
-      <a href="mentions-legales.html" class="menu__link">Mentions légales</a>
-      <h3 class="menu__title">Nous suivre</h3>
-      <ul class="menu__link">
-        <li class="menu__item">
-          <a href="https://x.com/mmimontbeliard" class="menu__social-link">
-            <img src="assets/svg/twitter.svg" alt="logo twitter" class="social-link__img" />
+    </header>
+    <main class="main">
+      <article class="article article--carrousel">
+        <h3 class="article__title">Programmation du 5 juillet 2025</h3>
+        <div class="article__carrousel">
+          <a href="tout-est-possible.html" class="carrousel__poster">
+            <img
+              src="assets/webp/tout_est_possible.webp"
+              alt="affiche du film tout es possible"
+              class="poster__img"
+            />
+            <h3 class="poster__title">Tout est possible</h3>
+            <p class="poster__date">5 juillet 2025</p>
+            <p class="poster__hour">10h00 – 12h00</p>
           </a>
-        </li>
-        <li class="menu__item">
-          <a href="https://www.facebook.com/mmimontbeliard" class="menu__social-link"><img src="assets/svg/facebook.svg"
-              alt="logo facebook" class="social-link__img" /></a>
-        </li>
-        <li class="menu__item">
-          <a href="https://www.tiktok.com/@mmi_montbeliard" class="menu__social-link"><img src="assets/svg/tiktok.svg"
-              alt="logo tiktok" class="social-link__img" /></a>
-        </li>
-        <li class="menu__item">
-          <a href="https://www.instagram.com/mmi_montbeliard/" class="menu__social-link"><img
-              src="assets/svg/instagram.svg" alt="logo instagram" class="social-link__img" /></a>
-        </li>
-      </ul>
-    </nav>
-    <div class="registeration">
-      <h3 class="footer__title">S’inscrire à la Newsletter</h3>
-      <input type="text" class="footer__input" placeholder="Entrez Votre Email" />
-      <button class="btn footer__btn">s'inscrire</button>
-    </div>
-    <div class="footer__logo">
-      <img src="assets/svg/logo_et_nom_blanc.svg" alt="logo de cinénature avec le titre cinénature" class="logo__img" />
-    </div>
-  </footer>
-</body>
+          <div class="carrousel__poster">
+            <img
+              src="assets/webp/demain.webp"
+              alt="Affiche du film DEMAIN"
+              class="poster__img"
+            />
+            <h3 class="poster__title">DEMAIN</h3>
+            <p class="poster__date">5 juillet 2025</p>
+            <p class="poster__hour">14h00 – 16h00</p>
+          </div>
+          <div class="carrousel__poster">
+            <img
+              src="assets/webp/ma_petite_planete_verte.webp"
+              alt="Affiche du film Ma petite planète verte"
+              class="poster__img"
+            />
+            <h3 class="poster__title">Ma petite planète verte</h3>
+            <p class="poster__date">5 juillet 2025</p>
+            <p class="poster__hour">16h30 - 18h30</p>
+          </div>
+          <div class="carrousel__poster">
+            <img
+              src="assets/webp/honeyland.webp"
+              alt="Affiche du film Honneyland"
+              class="poster__img"
+            />
+            <h3 class="poster__title">Honneyland</h3>
+            <p class="poster__date">5 juillet 2025</p>
+            <p class="poster__hour">20h00 – 22h00</p>
+          </div>
+        </div>
+        <div class="carrousel__buttons">
+          <button class="btn article__btn carrousel__btn--prev">←</button>
+          <button class="btn article__btn article__btn--carrousel">
+            En savoir plus
+          </button>
+          <button class="btn article__btn carrousel__btn--next">→</button>
+        </div>
+      </article>
 
+      <article class="article article--carrousel">
+        <h3 class="article__title">Programmation du 6 juillet 2025</h3>
+        <div class="article__carrousel">
+          <div class="carrousel__poster">
+            <img
+              src="assets/webp/2040.webp"
+              alt="affiche du film 2040"
+              class="poster__img"
+            />
+            <h3 class="poster__title">2040</h3>
+            <p class="poster__date">6 juillet 2025</p>
+            <p class="poster__hour">10h00 - 12h00</p>
+          </div>
+          <div class="carrousel__poster">
+            <img
+              src="assets/webp/home.webp"
+              alt="Affiche du film Home"
+              class="poster__img"
+            />
+            <h3 class="poster__title">HOME</h3>
+            <p class="poster__date">6 juillet 2025</p>
+            <p class="poster__hour">14h00 – 16h00</p>
+          </div>
+          <div class="carrousel__poster">
+            <img
+              src="assets/webp/le_temps_des_forets.webp"
+              alt="Affiche du film Le temps des forêts"
+              class="poster__img"
+            />
+            <h3 class="poster__title">Le temps des forêts</h3>
+            <p class="poster__date">6 juillet 2025</p>
+            <p class="poster__hour">16h30 - 18h30</p>
+          </div>
+          <div class="carrousel__poster">
+            <img
+              src="assets/webp/la_glace_et_le_ciel.webp"
+              alt="Affiche du film la glace et le ciel"
+              class="poster__img"
+            />
+            <h3 class="poster__title">La glace et le ciel</h3>
+            <p class="poster__date">6 juillet 2025</p>
+            <p class="poster__hour">20h00 – 22h00</p>
+          </div>
+        </div>
+        <div class="carrousel__buttons">
+          <button class="btn article__btn carrousel__btn--prev">←</button>
+          <button class="btn article__btn article__btn--carrousel">
+            En savoir plus
+          </button>
+          <button class="btn article__btn carrousel__btn--next">→</button>
+        </div>
+      </article>
+
+      <article class="article article--carrousel">
+        <h3 class="article__title">Programmation du 7 juillet 2025</h3>
+        <div class="article__carrousel">
+          <div class="carrousel__poster">
+            <img
+              src="assets/webp/les_moissons_du_futur.webp"
+              alt="affiche du film Les moissons du futur"
+              class="poster__img"
+            />
+            <h3 class="poster__title">Les moissons du futur</h3>
+            <p class="poster__date">7 juillet 2025</p>
+            <p class="poster__hour">10h00 – 12h00</p>
+          </div>
+          <div class="carrousel__poster">
+            <img
+              src="assets/webp/our_planet.webp"
+              alt="Affiche du film Our planet"
+              class="poster__img"
+            />
+            <h3 class="poster__title">our planet</h3>
+            <p class="poster__date">7 juillet 2025</p>
+            <p class="poster__hour">14h00 – 16h00</p>
+          </div>
+          <div class="carrousel__poster">
+            <img
+              src="assets/webp/a_plastic_ocean.webp"
+              alt="Affiche du film A plastic ocean"
+              class="poster__img"
+            />
+            <h3 class="poster__title">a plastic ocean</h3>
+            <p class="poster__date">7 juillet 2025</p>
+            <p class="poster__hour">14h00 – 16h00</p>
+          </div>
+          <div class="carrousel__poster">
+            <img
+              src="assets/webp/mystere.webp"
+              alt="Affiche du film mystere"
+              class="poster__img"
+            />
+            <h3 class="poster__title">mystere</h3>
+            <p class="poster__date">7 juillet 2025</p>
+            <p class="poster__hour">20h00 – 22h00</p>
+          </div>
+        </div>
+        <div class="carrousel__buttons">
+          <button class="btn article__btn carrousel__btn--prev">←</button>
+          <button class="btn article__btn article__btn--carrousel">
+            En savoir plus
+          </button>
+          <button class="btn article__btn carrousel__btn--next">→</button>
+        </div>
+      </article>
+
+      <article class="article article--carrousel">
+        <h3 class="article__title">Programmation du 8 juillet 2025</h3>
+        <div class="article__carrousel">
+          <div class="carrousel__poster">
+            <img
+              src="assets/webp/la_terre_vue_du_ciel.webp"
+              alt="affiche du film La terre vue du ciel"
+              class="poster__img"
+            />
+            <h3 class="poster__title">La terre vue du ciel</h3>
+            <p class="poster__date">8 juillet 2025</p>
+            <p class="poster__hour">10h00 – 12h00</p>
+          </div>
+          <div class="carrousel__poster">
+            <img
+              src="assets/webp/le_peuple_migrateur.webp"
+              alt="Affiche du film Le peuple migrateur"
+              class="poster__img"
+            />
+            <h3 class="poster__title">Le peuple migrateur</h3>
+            <p class="poster__date">8 juillet 2025</p>
+            <p class="poster__hour">14h00 – 16h00</p>
+          </div>
+          <div class="carrousel__poster">
+            <img
+              src="assets/webp/en_quete_de_sens.webp"
+              alt="Affiche du film En quête de sens"
+              class="poster__img"
+            />
+            <h3 class="poster__title">En quête de sens</h3>
+            <p class="poster__date">8 juillet 2025</p>
+            <p class="poster__hour">14h00 – 16h00</p>
+          </div>
+          <div class="carrousel__poster">
+            <img
+              src="assets/webp/demain.webp"
+              alt="Affiche du film DEMAIN"
+              class="poster__img"
+            />
+            <h3 class="poster__title">DEMAIN</h3>
+            <p class="poster__date">8 juillet 2025</p>
+            <p class="poster__hour">20h00 - 22h00</p>
+          </div>
+        </div>
+        <div class="carrousel__buttons">
+          <button class="btn article__btn carrousel__btn--prev">←</button>
+          <button class="btn article__btn article__btn--carrousel">
+            En savoir plus
+          </button>
+          <button class="btn article__btn carrousel__btn--next">→</button>
+        </div>
+      </article>
+
+      <article class="article">
+        <h3 class="article__title">Séance Spéciale avec John Chester</h3>
+        <img
+          src="assets/webp/john_chester.webp"
+          alt="photographie de john Chester"
+          class="article__image"
+        />
+        <p class="article__excerpt">
+          Rejoignez John Chester, réalisateur de "The Biggest Little Farm", pour
+          une projection exclusive suivie d’une rencontre exceptionnelle.
+          Découvrez les coulisses de sa ferme régénérative et échangez avec lui
+          sur l’agriculture durable et la biodiversité. Un moment inspirant pour
+          explorer l’impact du cinéma sur l’écologie. Places limitées – Réservez
+          vite !
+        </p>
+        <button class="btn article__btn">
+          <a href="les-invites.html" class="btn__link">En savoir plus</a>
+        </button>
+      </article>
+      <article class="article">
+        <h3 class="article__title">
+          Un Voyage Cinématographique en Pleine Nature
+        </h3>
+        <img
+          src="assets/webp/cinema_plein_air.webp"
+          alt="photographie d'un cinéma en plein air"
+          class="article__image"
+        />
+        <p class="article__excerpt">
+          Plongez au cœur de la nature avec les projections en plein air du
+          Festival CinéNature. Chaque soirée, profitez d'une sélection de films
+          d'auteur et documentaires engagés, projetés sous les étoiles dans un
+          cadre exceptionnel, sur la presqu'île du Malsaucy. Les films mettent
+          en lumière des thèmes écologiques et sociaux, éveillant les
+          consciences tout en offrant une expérience cinématographique
+          immersive. Apportez votre couverture et laissez-vous transporter par
+          la magie du cinéma en plein air, entouré de la beauté naturelle. Une
+          expérience unique où la nature et l’art se rencontrent.
+        </p>
+      </article>
+      <article class="article">
+        <h3 class="article__title">Les Ateliers Interactifs</h3>
+        <img
+          src="assets/webp/plant.webp"
+          alt="photographie d'un cinéma en plein air"
+          class="article__image"
+        />
+        <p class="article__excerpt">
+          Participez à nos ateliers interactifs et découvrez des façons
+          pratiques de contribuer à un avenir plus durable. Les ateliers, animés
+          par des experts en écologie et des artistes locaux, couvrent des
+          thématiques comme le recyclage créatif, la réduction des déchets ou
+          encore la permaculture. Ces activités permettent d’approfondir les
+          sujets abordés dans les films projetés, tout en offrant des solutions
+          concrètes à mettre en œuvre dans la vie quotidienne. Ouverts à tous,
+          ces ateliers favorisent l’échange et la créativité, tout en
+          sensibilisant aux enjeux environnementaux actuels.
+        </p>
+      </article>
+      <article class="article">
+        <h3 class="article__title">Rencontres avec les Réalisateurs</h3>
+        <img
+          src="assets/webp/conference.webp"
+          alt="photographie d'un cinéma en plein air"
+          class="article__image"
+        />
+        <p class="article__excerpt">
+          Le Festival CinéNature vous propose des rencontres exclusives avec les
+          réalisateurs et les acteurs des films programmés. Ces discussions
+          offrent un moment privilégié pour échanger autour des œuvres et des
+          thèmes écologiques abordés. Vous aurez l'occasion de poser vos
+          questions, de comprendre les inspirations derrière chaque projet, et
+          de découvrir les défis que ces cinéastes rencontrent dans leur
+          démarche artistique. Ces moments de partage favorisent une
+          compréhension plus profonde des films et encouragent un dialogue
+          engagé autour de la protection de l'environnement et des solutions
+          durables.
+        </p>
+      </article>
+      <article class="article">
+        <h3 class="article__title">Films Locaux et Jeunes Talents</h3>
+        <img
+          src="assets/webp/guy_on_grass.webp"
+          alt="photographie d'un cinéma en plein air"
+          class="article__image"
+        />
+        <p class="article__excerpt">
+          Le Festival CinéNature met un point d'honneur à valoriser les jeunes
+          talents locaux à travers une sélection spéciale de courts-métrages et
+          de films régionaux. Ces œuvres, souvent engagées, abordent des
+          thématiques environnementales tout en reflétant la richesse culturelle
+          et artistique de la région. Venez découvrir de nouveaux réalisateurs,
+          artistes en devenir, qui utilisent leur créativité pour sensibiliser
+          aux questions écologiques. En soutenant ces talents émergents, le
+          festival participe à la mise en avant de la créativité locale et
+          encourage la production cinématographique durable.
+        </p>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <nav class="footer__menu">
+        <h3 class="menu__title">Menu</h3>
+        <a href="contact.html" class="menu__link">Contact</a>
+        <a href="#" class="menu__link">Politique de confidentialité</a>
+        <a href="mentions-legales.html" class="menu__link">Mentions légales</a>
+        <h3 class="menu__title">Nous suivre</h3>
+        <ul class="menu__link">
+          <li class="menu__item">
+            <a href="https://x.com/mmimontbeliard" class="menu__social-link">
+              <img
+                src="assets/svg/twitter.svg"
+                alt="logo twitter"
+                class="social-link__img"
+              />
+            </a>
+          </li>
+          <li class="menu__item">
+            <a
+              href="https://www.facebook.com/mmimontbeliard"
+              class="menu__social-link"
+              ><img
+                src="assets/svg/facebook.svg"
+                alt="logo facebook"
+                class="social-link__img"
+            /></a>
+          </li>
+          <li class="menu__item">
+            <a
+              href="https://www.tiktok.com/@mmi_montbeliard"
+              class="menu__social-link"
+              ><img
+                src="assets/svg/tiktok.svg"
+                alt="logo tiktok"
+                class="social-link__img"
+            /></a>
+          </li>
+          <li class="menu__item">
+            <a
+              href="https://www.instagram.com/mmi_montbeliard/"
+              class="menu__social-link"
+              ><img
+                src="assets/svg/instagram.svg"
+                alt="logo instagram"
+                class="social-link__img"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="registeration">
+        <h3 class="footer__title">S’inscrire à la Newsletter</h3>
+        <input
+          type="text"
+          class="footer__input"
+          placeholder="Entrez Votre Email"
+        />
+        <button class="btn footer__btn">s'inscrire</button>
+      </div>
+      <div class="footer__logo">
+        <img
+          src="assets/svg/logo_et_nom_blanc.svg"
+          alt="logo de cinénature avec le titre cinénature"
+          class="logo__img"
+        />
+      </div>
+    </footer>
+  </body>
 </html>
