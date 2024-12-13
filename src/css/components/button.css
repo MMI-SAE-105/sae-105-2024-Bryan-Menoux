@@ -74,3 +74,12 @@
   width: 50px;
   height: 50px;
 }
+
+.article__btn--style-2 {
+  background-color: var(--colors-vert);
+  padding: 15px;
+  color: var(--colors-blanc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
