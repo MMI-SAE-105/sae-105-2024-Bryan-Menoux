@@ -150,3 +150,10 @@
   font-weight: 400;
   line-height: 160%;
 }
+
+.article__list--social {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: flex-end;
+}

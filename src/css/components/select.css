@@ -7,3 +7,25 @@
 .article__select {
   color: var(--colors-vert);
 }
+
+.form__select {
+  border: 2px solid var(--colors-bleu-clair);
+  background-color: transparent;
+  padding: 5px 0;
+  border-radius: var(--radius-1x);
+  min-width: 100%;
+
+  font: var(--typos-typo-2);
+  font-size: var(--size-2x);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  padding-left: 20px;
+}
+.form__select:focus {
+  background-color: var(--colors-bleu-clair);
+}
+
+.form__option {
+  padding-left: 50px;
+}
