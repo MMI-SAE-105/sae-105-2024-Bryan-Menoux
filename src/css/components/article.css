@@ -138,5 +138,15 @@
   border-bottom: 1px solid var(--colors-gris);
 }
 
-.article__buy {
+.article__list--spaced {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1x);
+}
+
+.article__item {
+  font-size: var(--size-2x);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
 }
