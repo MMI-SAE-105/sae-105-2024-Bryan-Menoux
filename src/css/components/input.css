@@ -40,6 +40,9 @@
 
 .form__message {
   height: 20vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  max-width: 100%;
 }
 
 .form__message::placeholder {

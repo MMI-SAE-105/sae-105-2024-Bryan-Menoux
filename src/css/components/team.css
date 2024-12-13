@@ -1,0 +1,12 @@
+.article--team {
+  display: flex;
+  padding-left: var(--space-2x);
+  padding-right: var(--space-2x);
+  gap: var(--space-1x);
+}
+
+.article__team {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1x);
+}
