@@ -61,7 +61,8 @@
   left: 10%;
   top: 20%;
 }
-.menu__item {
+.menu__item a {
+  color: var(--colors-blanc);
   font: var(--typos-typo-2);
   font-size: var(--size-4x);
   font-style: normal;
