@@ -40,3 +40,8 @@
   top: 0;
   border-radius: var(--radius-1x);
 }
+
+.buy__btn {
+  padding: 5px 10px;
+  border-radius: var(--radius-2x);
+}

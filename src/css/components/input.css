@@ -9,3 +9,13 @@
   color: var(--colors-blanc);
   text-transform: lowercase;
 }
+
+.buy__input {
+  padding: var(--space-1x);
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--colors-vert);
+}
+.buy__input::placeholder {
+  color: var(--colors-vert);
+}

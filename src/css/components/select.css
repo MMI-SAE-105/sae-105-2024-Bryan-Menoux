@@ -1,0 +1,9 @@
+.article__select {
+  padding: var(--space-1x);
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--colors-vert);
+}
+.article__select {
+  color: var(--colors-vert);
+}

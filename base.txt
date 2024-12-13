@@ -31,6 +31,7 @@
     </div>
     <div class="hero__content">
       <h1 class="hero__title">La programmation</h1>
+    </div>
   </header>
   <main class = "main">
   
