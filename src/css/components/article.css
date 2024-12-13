@@ -157,3 +157,10 @@
   gap: 5px;
   justify-content: flex-end;
 }
+
+.article__item--spaced {
+  font-size: var(--size-2x);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
